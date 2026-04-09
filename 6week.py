@@ -1,12 +1,9 @@
-order_detail = []
+def plus(v1, v2):
+    result = 0
+    result = v1 + v2
+    return result
 
-def make_order(name,qty,qul):
-    order_detail.insert(qul-1, {"이름":name, "수량":qty})
+hap = 0
 
-print(order_detail)
-make_order("아메리카노",2,3)
-print(order_detail)
-make_order("자바칩프라푸치노",1,1)
-print(order_detail)
-make_order("라떼",1,2)
-print(order_detail)
+hap = plus(100,200)
+print(f"100과 200의 plus() 함수 결과는 {hap}")
